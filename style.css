@@ -1,0 +1,84 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color: #2D3A3A;
+  font-size: 17px;
+  line-height: 10px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #474647;
+  font-size: 27px;
+  line-height: 10px;
+}
+
+.image-round {
+  border-radius: 50%;
+}
+
+.button-green {
+  width: 150px;
+  background-color: #69A297;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons > li > a > i {
+  list-style: none;
+  color: #A3C9A8;
+}
+
+.social-icons > li {
+  display: inline-block;
+}
+
+.button-green:hover {
+  background-color: #A0A4B8;
+}
+
+.social-icons > li > a > i:hover {
+  color: #A0A4B8;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
